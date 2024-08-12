@@ -40,7 +40,7 @@ npm run dev
 yarn dev
 ```
 ## Project Structure
-     ```bash
+```
 ├── public              # Static files
 │   ├── js
 │   └── stylesheet
@@ -63,7 +63,7 @@ product.html            # Entry point for
 ├── vite.config.js      # Vite configuration
 ├── .eslintrc.cjs       #
 └── README.md           # Project documentation
-  ```
+```
 
 ## Technologies Used
 
