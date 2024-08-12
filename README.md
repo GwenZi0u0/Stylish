@@ -1,4 +1,4 @@
-# STYLish Project
+# STYLiSh Project
 
 E-commerce clothing
 
