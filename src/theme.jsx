@@ -1,0 +1,20 @@
+export const theme = {
+  colors: {
+    primaryColor: "#fff",
+    secondaryColor: "#313538",
+    brownColor: "#8b572a",
+    whiteColor: "#f5f5f5",
+    whiteBgcColor:"#f3f3f3",
+    blankTextColor: "#3f3a3a",
+    grayTextColor: "#828282",
+    grayItemColor: "#d3d3d3",
+    graySpanColor: "#BABABA",
+    stoneGrayColor: "#cccccc",
+    greenColor: "#ddffbb",
+    greyBorderColor: "#979797",
+    blankColor: "#000000",
+    lightGrayColor: "#ececec",
+    opacityGrayColor: "#ECECEC40",
+    opacityBlankColor: "#3F3A3A40",
+  },
+};

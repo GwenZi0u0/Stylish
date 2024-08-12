@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stylesheet/base/reset.css" />
+    <link rel="stylesheet" href="./stylesheet/main.css" />
+    <title>STYLiSH</title>
+  </head>
+  <body>
+    <div id="wrapper">
+    <header>
+      <nav>
+        <!-- logo -->
+        <img src="./image/logo.png" alt="STYLiSH" id="logo" />
+        <!-- Menu -->
+        <ul class="categories">
+          <li class="tab-split" id="tabWomen">女裝</li>
+          <li class="tab-split split" id="tabMen">男裝</li>
+          <li class="tab-split split" id="tabAccessories">配件</li>
+        </ul>
+      </nav>
+      <nav>
+        <!-- Search Desktop/Mobile -->
+        <form action="" class="search-container search-mobile">
+          <input class="search-input" id="search-input" type="text" placeholder="西裝" autofocus />
+          <img class="search-icon" src="./image/search.png" alt="search" />
+        </form>
+        <!-- user -->
+        <user-container>
+          <!-- shoppingCart -->
+          <div id="shoppingcart">
+            <div id="cart">
+              <img id="carticon" src="./image/cart.svg" alt="cart" />
+              <img id="carticon-white" src="./image/cart-mobile.svg" alt="" />
+              <cart-number>1</cart-number>
+            </div>
+            <span class="mobile-usertext">購物車</span>
+          </div>
+          <div id="login">
+            <img id="usericon" src="./image/profile.svg" alt="person" />
+            <img
+              id="usericon-white"
+              src="./image/profile-mobile.svg"
+              alt="person"
+            />
+            <span class="mobile-usertext">會員</span>
+          </div>
+        </user-container>
+      </nav>
+    </header>
+    <main>
+      <!-- carousel -->
+      <div class="home-carousel">
+        <img class="carousel-image" src="" alt="">
+        <div class="home-story"></div>
+        <ul class="carousel-dot">
+        </ul>
+      </div>
+      <main-content>
+        <!-- card-container -->
+        <div class="card-container">
+          <!-- card -->
+          <card-content></card-content>
+        </div>
+      </main-conttent>
+    </main>
+    <footer>
+      <div class="footer-link-icons">
+        <ul class="link">
+          <div class="link-before">
+            <li><a href="">關於 STYLiSH</a></li>
+            <li class="linkitem-before"><a href="">服務條款</a></li>
+            <li class="linkitem-before linkitem-after">
+              <a href="">隱私政策</a>
+            </li>
+          </div>
+          <div class="link-after">
+            <li class="linkitem-after"><a href="">聯絡我們</a></li>
+            <li><a href="">FAQ</a></li>
+          </div>
+        </ul>
+        <div class="icons">
+          <img src="./image/line.png" alt="line" />
+          <img src="./image/twitter.png" alt="twitter" />
+          <img src="./image/facebook.png" alt="facebook" />
+        </div>
+      </div>
+      <span>© 2018. All rights reserved.</span>
+    </footer>
+  </div>
+  </body>
+  <script src="./js/main.js"></script>
+  <script src="./js/offline.js"></script>
+  <script src="./js/carousel.js"></script>
+</html>

@@ -1,0 +1,184 @@
+main {
+  background-color: var(--primary-color);
+  width: 100vw;
+  height: auto;
+  padding-top: 140px;
+  min-height: 100vh;
+}
+
+.home-carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.carousel-image {
+  position: absolute;
+}
+
+.home-story {
+  position: absolute;
+  background-color: transparent;
+  width: 1920px;
+  height: 100%;
+  padding: 167px 0 0 407px;
+}
+
+.home-story span {
+  position: absolute;
+  font-size: 30px;
+  line-height: 57px;
+}
+
+.home-story p {
+  position: absolute;
+  font-size: 20px;
+  line-height: 64px;
+  bottom: 99px;
+}
+
+.carousel-dot {
+  position: absolute;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  bottom: 34px;
+  gap: 22px;
+}
+
+.carousel-dot li {
+  background-color: var(--primary-color);
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  opacity: 0.6;
+  z-index: 50;
+}
+
+.active {
+  background-color: var(--brown-color) !important ;
+}
+
+main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.card-container {
+  padding: 70px 0 96px 0;
+}
+
+card-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px 40px;
+}
+
+@media screen and (max-width: 1279.9px) {
+  main {
+    padding-top: 102px;
+  }
+
+  .home-carousel {
+    height: 185px;
+  }
+
+  .carousel-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .home-story {
+    width: 480px;
+    padding: 36px 0 0 23px;
+  }
+
+  .home-story span {
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .home-story p {
+    font-size: 12px;
+    line-height: 28px;
+    bottom: 37px;
+  }
+
+  .carousel-dot {
+    bottom: 18px;
+    gap: 8.8px;
+  }
+
+  .carousel-dot li {
+    width: 4px;
+    height: 4px;
+    opacity: 1;
+  }
+
+  .card-container {
+    padding: 15px 0 47px 0;
+  }
+
+  card-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px 6px;
+  }
+}
+
+@media screen and (max-width: 479.9px) {
+  main {
+    padding-top: 102px;
+  }
+
+  .home-carousel {
+    height: 185px;
+  }
+
+  .carousel-image {
+    height: 100%;
+  }
+
+  .home-story {
+    width: 360px;
+    padding: 36px 0 0 23px;
+  }
+
+  .home-story span {
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .home-story p {
+    font-size: 12px;
+    line-height: 28px;
+    bottom: 37px;
+  }
+
+  .carousel-dot {
+    bottom: 18px;
+    gap: 8.8px;
+  }
+
+  .carousel-dot li {
+    width: 4px;
+    height: 4px;
+    opacity: 1;
+  }
+
+  .card-container {
+    padding: 15px 0 47px 0;
+  }
+
+  card-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px 6px;
+  }
+}
