@@ -91,18 +91,18 @@ product.html            # Entry point for
 
 ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
 
-# React + Vite
+### React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# Skills
+### Skills
 
 - RWD (Responsive Web Design)
 - DOM Manipualtion
 - Data Manipulation
 - REST API Integration
 
-# Implementation
+### Implementation
 
 - Carousel
 - Infinite Scroll
